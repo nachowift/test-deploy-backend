@@ -2,7 +2,7 @@ from app import db
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
 from sqlalchemy.orm import declarative_base, validates
 
-# declarative base class
+# declarative base class test
 Base = declarative_base()
 
 class Restaurant(db.Model):
